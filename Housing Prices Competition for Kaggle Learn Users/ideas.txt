@@ -1,0 +1,61 @@
+Replace 'NA' with 0:
+    LotFrontage
+    GarageYrBlt
+
+
+Dictionaries:
+    Alley
+    MSZoning
+    Street
+    LotShape
+    LandContour
+    Utilities
+    LotConfig
+    LandSlope
+    Neighborhood
+    Condition1
+    Condition2
+    BldgType
+    HouseStyle
+    RoofStyle
+    RoofMatl
+    Exterior1st
+    Exterior2nd
+    MasVnrType (+ NA -> 0)
+    MasVnrArea (+ NA -> 0)
+    ExterQual
+    ExterCond
+    Foundation
+    BsmtQual (+ NA -> 0)
+    BsmtCond (+ NA -> 0)
+    BsmtExposure (+ NA -> 0)
+    BsmtFinType1 (+ NA -> 0)
+    BsmtFinType2 (+ NA -> 0)
+    Heating
+    HeatingQC
+    CentralAir
+    Electrical (+ NA -> 0)
+    KitchenQual
+    Functional
+    FireplaceQu (+ NA -> 0)
+    GarageType (+ NA -> 0)
+    GarageFinish (+ NA -> 0)
+    GarageQual (+ NA -> 0)
+    GarageCond (+ NA -> 0)
+    PavedDrive
+    PoolQC (+ NA -> 0)
+    Fence (+ NA -> 0)
+    MiscFeature (+ NA -> 0) ?
+    SaleType
+    SaleCondition
+
+
+Just add new features:
+    BsmtFinSF1
+    BsmtFinSF2
+    BsmtUnfSF
+    TotalBsmtSF
+    BsmtFullBath
+    BsmtHalfBath
+    GarageCars
+    GarageArea
